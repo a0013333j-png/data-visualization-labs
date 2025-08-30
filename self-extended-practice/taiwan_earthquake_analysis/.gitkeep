@@ -1,1 +1,9 @@
+# 系統/暫存
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 
+# 不想把大量輸出都 commit，開這行（此專案建議保留地圖，方便瀏覽）
+output/*
