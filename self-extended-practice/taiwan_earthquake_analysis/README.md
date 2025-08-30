@@ -16,3 +16,11 @@ self-extended-practice/taiwan_earthquake_analysis/
 │ └── taiwan_earthquake_map.html
 └── .gitignore
 ```
+
+## 資料來源
+- 政府資料開放平臺 → 中央氣象署地震目錄（E-A0073-001）
+
+## 如何執行
+```bash
+pip install -r requirements.txt
+python src/make_map.py
