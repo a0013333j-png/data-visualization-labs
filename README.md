@@ -1,72 +1,61 @@
-# 📍 Taiwan Earthquake Analysis (2000–2025)
+# 🌏 台灣地震互動地圖 Taiwan Earthquake Interactive Map (2000–2025)
 
-互動式地圖專案，視覺化台灣 2000–2025 年地震事件（來源：**中央氣象署 GDMS**）。  
-地圖可透過下拉式選單選擇年份，點擊地震標記可查看 **時間、規模、深度**。  
-專案部署在 **GitHub Pages**，任何人都能直接體驗成果。
+## 📖 專案簡介 / Project Overview
+這個專案使用 **台灣地震目錄（GDMS JSON 資料）**，將 2000–2025 年的地震資料視覺化成互動式地圖。  
+使用者可透過下拉選單切換年份，並在地圖上查看各地震的震央、規模與深度。
 
-👉 **[立即體驗互動地圖](https://a0013333j-png.github.io/data-visualization-labs/)**
-
----
-
-## 🔹 專案特色
-- **資料來源**：中央氣象署 GDMS 平台（地震目錄 JSON，2000–2025 年，ML ≥ 4）。  
-- **互動功能**：
-  - 下拉式選單切換年份  
-  - 圓點大小對應地震規模  
-  - 圓點顏色對應地震深度（橘→淺層、紅→深層）  
-  - 點擊地震位置顯示詳細資訊（時間 / 規模 / 深度）  
-- **部署平台**：GitHub Pages（自動化 CI/CD 部署）
+This project uses **Taiwan Earthquake Catalog (GDMS JSON data)** to visualize earthquakes from 2000–2025 on an interactive map.  
+Users can switch between years via a dropdown menu and view earthquake epicenters, magnitudes, and depths directly on the map.
 
 ---
 
-## 🛠 技術堆疊
-- **程式語言**：Python 3.11  
-- **套件**：
-  - `pandas` → 資料清理、欄位轉換  
-  - `folium` → 地圖繪製（Leaflet.js 封裝）  
-- **版本控管**：Git & GitHub  
-- **前端部署**：GitHub Pages  
+## 🛠️ 技術堆疊 / Tech Stack
+- **Python**：資料處理與清理 / Data processing and cleaning  
+- **pandas**：資料轉換與欄位標準化 / Data transformation and column normalization  
+- **folium**：生成互動式地圖與圖層控制 / Interactive map generation with layer controls  
+- **GitHub Pages**：專案展示與成果發佈 / Project hosting and result presentation  
 
 ---
 
-## 📂 專案架構
-```bash
-taiwan_earthquake_analysis/
-│── data/                # 原始地震資料 (JSON)
-│── src/                 # Python 程式碼
-│   └── make_map_by_year.py
-│── index.html           # 最終輸出的互動地圖 (部署頁面)
-│── README.md            # 專案說明文件
+## 📂 專案結構 / Project Structure
+```
+data-visualization-labs/
+│── self-extended-practice/
+│   └── taiwan_earthquake_analysis/
+│       ├── data/earthquakes/       # JSON 原始地震資料 / Raw earthquake data (JSON)
+│       ├── src/make_map_by_year.py # 地圖生成程式 / Map generation script
+│       ├── main.py                 # 主程式入口 / Main script entry
+│       └── release/
+│           └── index.html           # 輸出互動式地圖 / Interactive map output
 ```
 
 ---
 
-## 🚀 使用方式
-1. **下載專案**
-   ```bash
-   git clone https://github.com/a0013333j-png/data-visualization-labs.git
-   cd self-extended-practice/taiwan_earthquake_analysis
-   ```
-2. **安裝依賴**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **生成互動地圖**
-   ```bash
-   python main.py
-   ```
-   預設會輸出 **index.html**，可直接在瀏覽器開啟。
+## 🚀 使用方式 / Usage
+1. 下載或更新地震 JSON 資料 (GDMS Catalog)。  
+   Download or update earthquake JSON data (GDMS Catalog).  
+
+2. 執行 `main.py` 產生互動地圖。  
+   Run `main.py` to generate the interactive map.  
+
+3. 生成結果將輸出到 `release/index.html`，可直接用瀏覽器開啟。  
+   The output will be saved as `release/index.html`, which can be opened directly in a browser.  
 
 ---
 
-## 📊 成果展示
-- [✅ GitHub Pages 網站](https://a0013333j-png.github.io/data-visualization-labs/)  
-- 下圖為專案成果截圖：  
-  ![demo](https://raw.githubusercontent.com/a0013333j-png/data-visualization-labs/main/self-extended-practice/taiwan_earthquake_analysis/demo.png)
+## 🌐 線上展示 / Live Demo
+👉 [GitHub Pages 展示 / View on GitHub Pages](https://a0013333j-png.github.io/data-visualization-labs/)  
 
 ---
 
-## 📌 後續改進
-- 增加 **規模篩選**（M ≥ 5, M ≥ 6）  
-- 增加 **熱度圖 (HeatMap)**  
-- 增加 **統計圖表**（年份 vs 次數）  
+## 📊 專案亮點 / Highlights
+- ✅ **2000–2025 年全台地震分布** / Earthquake distribution across Taiwan from 2000–2025  
+- ✅ **互動式下拉選單** / Interactive year dropdown selection  
+- ✅ **地震詳細資訊（規模、深度、時間）** / Detailed earthquake information (magnitude, depth, time)  
+- ✅ **可直接部署於 GitHub Pages** / Ready to deploy on GitHub Pages  
+
+---
+
+## 👤 作者 / Author
+- **Pei-Ling Shih**  
+  Data Visualization & Analytics Enthusiast  
