@@ -153,7 +153,7 @@ def _load_quakes_from_gdms(json_path: str | Path) -> pd.DataFrame:
 # -------------------------------
 # 互動地圖（下拉選年）— 橘/紅配色
 # -------------------------------
-def make_interactive_map(json_path: str, outfile: str = "release/index.html") -> None:
+def make_interactive_map(json_path: str, outfile: str = "index.html") -> None:
     df = _load_quakes_from_gdms(json_path)
 
     years = sorted(df["year"].dropna().unique().tolist())
