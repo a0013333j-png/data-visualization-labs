@@ -133,18 +133,22 @@ def make_interactive_map(json_path: str, outfile: str = "release/index.html"):
         yearly = df[df["year"] == year]
 
         for _, r in yearly.iterrows():
-            folium.CircleMarker(
-                location=[r["lat"], r["lon"]],
-                radius=3 + float(r["mag"]) if pd.notna(r["mag"]) else 3,
-                color="red" if r["depth"] > 70 else "blue",
-                fill=True,
-                fill_opacity=0.6,
-                popup=(
-                    f"時間：{pd.to_datetime(r['time']).strftime('%Y-%m-%d %H:%M:%S')}<br>"
-                    f"規模：{r['mag'] if pd.notna(r['mag']) else '—'}<br>"
-                    f"深度：{r['depth']} km"
-                ),
-            ).add_to(fg)
+                # 橘(<70km) / 紅(≥70km)，缺值一律當淺層→橘
+                depth_val = float(r["depth"]) if pd.notna(r["depth"]) else -1
+                color = "#e31a1c" if depth_val >= 70 else "#ff7f00"
+
+                folium.CircleMarker(
+                    location=[r["lat"], r["lon"]],
+                    radius=3 + (float(r["mag"]) if pd.notna(r["mag"]) else 0),
+                    color=color,
+                    fill=True,
+                    fill_opacity=0.6,
+                    popup=(
+                        f"時間：{pd.to_datetime(r['time']).strftime('%Y-%m-%d %H:%M:%S')}<br>"
+                        f"規模：{r['mag'] if pd.notna(r['mag']) else '—'}<br>"
+                        f"深度：{f'{depth_val:.1f} km' if depth_val>=0 else '—'}"
+                    ),
+                ).add_to(fg)
 
         fg.add_to(m)
         feature_groups[year] = fg
@@ -154,4 +158,3 @@ def make_interactive_map(json_path: str, outfile: str = "release/index.html"):
     # 🚩固定輸出檔案名稱為 index.html
     m.save(outfile)
     print(f"[OK] 互動地圖輸出：{outfile}")
-
