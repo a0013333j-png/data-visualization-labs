@@ -59,8 +59,8 @@ Outputs:
 
 
 ### Requirements
-pandas
+```pandas
 requests
 matplotlib
-plotly
+plotly```
 
