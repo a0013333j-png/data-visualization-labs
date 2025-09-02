@@ -49,12 +49,14 @@ python src/plot_exports.py \
   --outdir output \
   --year-min 2013 --year-max 2025 \
   --exclude-others
+```
 
 Outputs:
- - `data/processed/top10_export_markets_avg_2013_2025.csv
- - `data/processed/top10_export_markets_trend_2013_2025.csv
- - `output/figures/taiwan_ic_top10_trend_en.png
- - `output/interactive/taiwan_ic_top12_barchart.html
+ - data/processed/top10_export_markets_avg_2013_2025.csv
+ - data/processed/top10_export_markets_trend_2013_2025.csv
+ - output/figures/taiwan_ic_top10_trend_en.png
+ - output/interactive/taiwan_ic_top12_barchart.html
+
 
 ### Requirements
 pandas
