@@ -21,7 +21,15 @@ This repository contains my portfolio of **data visualization practices, course 
     - 台灣地震互動地圖（2000–2025），支援年份下拉篩選，顏色依深度區分，圓點大小依規模呈現。  
     - 🌐 [View Online (GitHub Pages)](https://a0013333j-png.github.io/data-visualization-labs/)  
 
-### 3. **Final Assignment-v2**  
+### 3. **Data Visualization with Plotly Express**  
+- Course project focusing on interactive data visualization with Plotly.  
+- 課程專案，練習使用 Plotly 建立互動式資料視覺化。  
+  - **Taiwan vs Other Asian Countries**  
+    - Animated scatter plot comparing Taiwan’s GDP per capita and life expectancy with other Asian countries.  
+    - 台灣與亞洲其他國家之 GDP 與壽命互動散點動畫圖。  
+    - 🌐 [View Online (GitHub Pages)](https://a0013333j-png.github.io/data-visualization-labs/Data_Visualization_with_Plotly_Express/)  
+
+### 4. **Final Assignment-v2**  
 - Capstone project for the course.  
 - 課程期末專案。
 
