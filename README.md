@@ -27,7 +27,7 @@ This repository contains my portfolio of **data visualization practices, course 
   - **Taiwan vs Other Asian Countries**  
     - Animated scatter plot comparing Taiwan’s GDP per capita and life expectancy with other Asian countries.  
     - 台灣與亞洲其他國家之 GDP 與壽命互動散點動畫圖。  
-    - 🌐 [View Online (GitHub Pages)](https://github.com/a0013333j-png/data-visualization-labs/tree/main/Data%20Visualization%20with%20Plotly%20Express/index.html)  
+    - 🌐 [View Online (GitHub Pages)](https://a0013333j-png.github.io/data-visualization-labs/Data%20Visualization%20with%20Plotly%20Express/)  
 
 ### 4. **Final Assignment-v2**  
 - Capstone project for the course.  
