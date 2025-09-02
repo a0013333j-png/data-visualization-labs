@@ -1,0 +1,24 @@
+# Core data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Statistical analysis
+statsmodels>=0.14.0
+scipy>=1.11.0
+
+# Interactive notebooks
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+
+# Data import/export
+openpyxl>=3.1.0   # Excel 讀寫
+xlrd>=2.0.1       # 舊版 Excel 讀取
+requests>=2.31.0  # 若要下載資料或 API 連線
+
+# (Optional, if you want tidy regression outputs)
+linearmodels>=5.3
