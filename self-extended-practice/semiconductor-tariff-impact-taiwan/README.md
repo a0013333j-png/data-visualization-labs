@@ -43,12 +43,12 @@ self-extended-practice/
 
 ```bash
 python src/plot_exports.py \
-  --**raw data/raw/taiwan_exports_by_country_2013_2025.csv \
-  --**mapping data/mappings/country_name_map_full.json \
-  --**processed data/processed \
-  --**outdir output \
-  --**year-min 2013 --year-max 2025 \
-  --**exclude-others
+  --raw data/raw/taiwan_exports_by_country_2013_2025.csv \
+  --mapping data/mappings/country_name_map_full.json \
+  --processed data/processed \
+  --outdir output \
+  --year-min 2013 --year-max 2025 \
+  --exclude-others
 
 Outputs:
  --**data/processed/top10_export_markets_avg_2013_2025.csv
