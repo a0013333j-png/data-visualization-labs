@@ -42,11 +42,9 @@ self-extended-practice/
 To better understand the relationship between Taiwan’s IC exports and international trade policies, we overlay policy event years as vertical red dashed lines on trend charts.
 These markers highlight years when U.S. tariff or semiconductor policy shifts occurred, helping link observed export fluctuations with external trade shocks.
 
-Example years included: 2018 (U.S.–China trade war tariffs), 2019 (expanded tariff list), 2021 (Biden administration review), 2022 (CHIPS Act), 2024–2025 (new semiconductor tariffs on China, announced 2024, effective 2025).
-
-Only verified policy years are marked — not every year.
-
-This ensures visual clarity, avoiding the misinterpretation that events happen annually.
+- Example years included: 2018 (U.S.–China trade war tariffs), 2019 (expanded tariff list), 2021 (Biden administration review), 2022 (CHIPS Act), 2024–2025 (new semiconductor tariffs on China, announced 2024, effective 2025).
+- Only verified policy years are marked — not every year.
+- This ensures visual clarity, avoiding the misinterpretation that events happen annually.
 
 ## How to Reproduce
 
