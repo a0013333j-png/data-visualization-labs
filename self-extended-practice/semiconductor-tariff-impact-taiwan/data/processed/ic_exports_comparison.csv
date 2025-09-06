@@ -1,37 +1,49 @@
-Year,Country,ExportValue(USD)
-2013,China,87880781336
-2013,Rep. of Korea,47118045374
-2013,USA,34544513963
-2014,China,61213334520
-2014,Rep. of Korea,51543873494
-2014,USA,34475973514
-2015,China,69361768277
-2015,Rep. of Korea,52173406254
-2015,USA,33477720332
-2016,China,61156504770
-2016,Rep. of Korea,52280253446
-2016,USA,34772139022
-2017,China,67201901492
-2017,Rep. of Korea,86103151684
-2017,USA,37990061851
-2018,China,85037571985
-2018,Rep. of Korea,109776376332
-2018,USA,37691624085
-2019,China,102102959980
-2019,Rep. of Korea,79076531427
-2019,USA,40099507189
-2020,China,116989221967
-2020,Rep. of Korea,82884355424
-2020,USA,44212664301
-2021,China,154221191756
-2021,Rep. of Korea,109296681667
-2021,USA,52816874085
-2022,China,154524110996
-2022,Rep. of Korea,112847160489
-2022,USA,51623041691
-2023,China,136335025390
-2023,Rep. of Korea,86134555070
-2023,USA,43556975377
-2024,China,159747196497
-2024,Rep. of Korea,120189285084
-2024,USA,50634521686
+typecode,freqcode,refperiodid,refyear,refmonth,period,reportercode,reporteriso,reporterdesc,flowcode,flowdesc,partnercode,partneriso,partnerdesc,partner2code,partner2iso,partner2desc,classificationcode,classificationsearchcode,isoriginalclassification,cmdcode,cmddesc,aggrlevel,isleaf,customscode,customsdesc,moscode,motcode,motdesc,qtyunitcode,qtyunitabbr,qty,isqtyestimated,altqtyunitcode,altqtyunitabbr,altqty,isaltqtyestimated,netwgt,isnetwgtestimated,grosswgt,isgrosswgtestimated,cifvalue,fobvalue,primaryvalue,legacyestimationflag,isreported,isaggregate,Year,Country,ExportValue(USD)
+A,20130101,2013,52,2013,156,CHN,China,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,38370921,true,,false,,87880781336,87880781336,4,true,false,,2013,China,87880781336.0
+A,20140101,2014,52,2014,156,CHN,China,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,,false,,false,,61213334520,61213334520,0,true,false,,2014,China,61213334520.0
+A,20150101,2015,52,2015,156,CHN,China,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0 ,0,TOTAL MOT,-1,,0,true,-1,,0,false,37811080.768,true,,false,,69361768277,69361768277,0,false,true,,2015,China,69361768277.0
+A,20160101,2016,52,2016,156,CHN,China,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,61156504770,61156504770,6,false,true,,2016,China,61156504770.0
+A,20170101,2017,52,2017,156,CHN,China,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0 ,0,TOTAL MOT,-1,,0,true,-1,,0,false,41662663.184,true,,false,,67201901492,67201901492,0,false,true,,2017,China,67201901492.0
+A,20180101,2018,52,2018,156,CHN,China,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,85037571985,85037571985,6,false,true,,2018,China,85037571985.0
+A,20190101,2019,52,2019,156,CHN,China,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,45139216.817,true,0,false,0,102102959980,102102959980,6,false,true,,2019,China,102102959980.0
+A,20200101,2020,52,2020,156,CHN,China,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,46250454.602,true,0,false,0,116989221967,116989221967,6,false,true,,2020,China,116989221967.0
+A,20210101,2021,52,2021,156,CHN,China,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,51739274.254,true,0,false,,154221191756,154221191756,6,false,true,,2021,China,154221191756.0
+A,20220101,2022,52,2022,156,CHN,China,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,46407887.099,true,0,false,,154524110996,154524110996,6,false,true,,2022,China,154524110996.0
+A,20230101,2023,52,2023,156,CHN,China,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,42268130.254,true,0,false,,136335025390,136335025390,6,false,true,,2023,China,136335025390.0
+A,20240101,2024,52,2024,156,CHN,China,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,44286049.088,true,0,false,,159747196497,159747196497,6,false,true,,2024,China,159747196497.0
+A,20130101,2013,52,2013,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,17112087,false,,false,,47118045374,47118045374,0,true,false,,2013,Rep. of Korea,47118045374.0
+A,20140101,2014,52,2014,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,,false,0,false,,51543873494,51543873494,0,false,true,,2014,Rep. of Korea,51543873494.0
+A,20150101,2015,52,2015,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,13077682,true,,false,,52173406254,52173406254,4,true,false,,2015,Rep. of Korea,52173406254.0
+A,20160101,2016,52,2016,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,12788689,true,,false,,52280253446,52280253446,4,true,false,,2016,Rep. of Korea,52280253446.0
+A,20170101,2017,52,2017,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,14883561.056,true,0,false,,86103151684,86103151684,4,false,true,,2017,Rep. of Korea,86103151684.0
+A,20180101,2018,52,2018,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,16081488.39,true,0,false,,109776376332,109776376332,4,false,true,,2018,Rep. of Korea,109776376332.0
+A,20190101,2019,52,2019,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,15338200.845,true,0,false,,79076531427,79076531427,4,false,true,,2019,Rep. of Korea,79076531427.0
+A,20200101,2020,52,2020,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,17190669.782,true,0,false,,82884355424,82884355424,4,false,true,,2020,Rep. of Korea,82884355424.0
+A,20210101,2021,52,2021,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,20645553.565,true,0,false,,109296681667,109296681667,4,false,true,,2021,Rep. of Korea,109296681667.0
+A,20220101,2022,52,2022,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,21126370.624,true,0,false,,112847160489,112847160489,4,false,true,,2022,Rep. of Korea,112847160489.0
+A,20230101,2023,52,2023,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,18011824.847,true,0,false,,86134555070,86134555070,4,false,true,,2023,Rep. of Korea,86134555070.0
+A,20240101,2024,52,2024,410,KOR,Rep. of Korea,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,17843766.623,true,0,false,,120189285084,120189285084,4,false,true,,2024,Rep. of Korea,120189285084.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2013,Taiwan,62823154368.19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2014,Taiwan,72297374270.48001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2015,Taiwan,69428936450.25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016,Taiwan,78171768000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2017,Taiwan,92307834000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018,Taiwan,95906955000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2019,Taiwan,100316857000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2020,Taiwan,122387433000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2021,Taiwan,155496056000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022,Taiwan,184136492000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023,Taiwan,166621215000.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024,Taiwan,165042202000.0
+A,20130101,2013,52,2013,842,USA,USA,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,,false,,false,,34544513963,34544513963,0,true,false,,2013,USA,34544513963.0
+A,20140101,2014,52,2014,842,USA,USA,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,,false,,false,,34475973514,34475973514,0,true,false,,2014,USA,34475973514.0
+A,20150101,2015,52,2015,842,USA,USA,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,,false,-1,,,false,,false,,false,,33477720332,33477720332,0,true,false,,2015,USA,33477720332.0
+A,20160101,2016,52,2016,842,USA,USA,X,Export,0,W00,World,0,W00,World,H4,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,,false,0,false,,34772139022,34772139022,0,false,true,,2016,USA,34772139022.0
+A,20170101,2017,52,2017,842,USA,USA,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,37990061851,37990061851,6,false,true,,2017,USA,37990061851.0
+A,20180101,2018,52,2018,842,USA,USA,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,37691624085,37691624085,6,false,true,,2018,USA,37691624085.0
+A,20190101,2019,52,2019,842,USA,USA,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,40099507189,40099507189,6,false,true,,2019,USA,40099507189.0
+A,20200101,2020,52,2020,842,USA,USA,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,44212664301,44212664301,6,false,true,,2020,USA,44212664301.0
+A,20210101,2021,52,2021,842,USA,USA,X,Export,0,W00,World,0,W00,World,H5,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,0,true,0,false,0,52816874085,52816874085,6,false,true,,2021,USA,52816874085.0
+A,20220101,2022,52,2022,842,USA,USA,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,,false,0,false,,51623041691,51623041691,0,false,true,,2022,USA,51623041691.0
+A,20230101,2023,52,2023,842,USA,USA,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,true,-1,,0,false,,false,0,false,,43556975377,43556975377,2,false,true,,2023,USA,43556975377.0
+A,20240101,2024,52,2024,842,USA,USA,X,Export,0,W00,World,0,W00,World,H6,HS,true,8542,Electronic integrated circuits,4,false,C00,TOTAL CPC,0,0,TOTAL MOT,-1,,0,false,-1,,0,false,,false,0,false,,50634521686,50634521686,0,false,true,,2024,USA,50634521686.0
