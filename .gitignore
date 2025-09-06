@@ -206,6 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
 # === Project-specific ignores ===
 
 # 忽略原始資料 (只留在 local)
@@ -215,7 +216,15 @@ self-extended-practice/semiconductor-tariff-impact-taiwan/data/raw/
 *.tmp
 *.bak
 
-# 忽略所有 CSV，但允許 processed 資料夾裡的輸出檔
+# 忽略所有 CSV
 *.csv
+
+# 但保留 processed 與 output 下的 CSV
 !self-extended-practice/semiconductor-tariff-impact-taiwan/data/processed/*.csv
+!self-extended-practice/semiconductor-tariff-impact-taiwan/output/**/*.csv
+
+# 保留所有輸出圖表
+!self-extended-practice/semiconductor-tariff-impact-taiwan/output/**/*.png
+!self-extended-practice/semiconductor-tariff-impact-taiwan/output/**/*.jpg
+
 
