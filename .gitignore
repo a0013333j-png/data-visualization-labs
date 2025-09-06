@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Project-specific ignores ===
+
+# 忽略原始資料 (只留在 local)
+self-extended-practice/semiconductor-tariff-impact-taiwan/data/raw/
+
+# 忽略暫存或中間測試檔
+*.tmp
+*.bak
+
+# 忽略所有 CSV，但允許 processed 資料夾裡的輸出檔
+*.csv
+!self-extended-practice/semiconductor-tariff-impact-taiwan/data/processed/*.csv
+
