@@ -126,6 +126,7 @@ The notebook uses cached `data/ai_demand_index_2015_2025.csv` if present; otherw
 
 Outputs:
  - `output/ai/ic_vs_ai_quarterly.png`
+ ![IC exports vs AI demand index (quarterly)](self-extended-practice/semiconductor-tariff-impact-taiwan/output/ai/ic_vs_ai_quarterly.png)
  - `data/processed/ic_with_ai_index.csv`
 
 ### Requirements
