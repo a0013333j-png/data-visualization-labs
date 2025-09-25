@@ -74,29 +74,6 @@ These markers highlight years when U.S. tariff or semiconductor policy shifts oc
 
 ---
 
-## New: AI Demand × IC Exports (2015–2025)
-
-### What we do
-1. Build (or load cached) **AI demand index** from Google Trends (monthly), then aggregate to **quarterly**.
-2. Transform IC exports to **quarterly** totals (World partner; value column prioritizes `fobvalue`, then `cifvalue`).
-3. Inner-join by (`year`, `quarter`) → run regressions:
-   - **OLS** in levels & `log1p`.
-   - **Fixed effects** with `C(year) + C(quarter)` and **HAC** (Newey–West) robust errors.
-
-### Key takeaways (current run)
-- **Without fixed effects**: AI index and IC exports co-move (positive, significant) — largely explained by the **shared trend**.
-- **With year + quarter fixed effects (HAC)**: the coefficient on the AI index becomes **statistically insignificant**, indicating limited marginal explanatory power for **within-year seasonal deviations** at the current aggregation and proxy.
-
-> Interpretation: At **World aggregate** and with this **Google-Trends proxy**, AI demand captures the long-run uptrend, but adds little incremental signal after absorbing annual and seasonal effects.  
-> To sharpen inference, try **lags**, **differences**, **destination/commodity splits**, or **stronger AI proxies** (e.g., GPU shipments/ASP, cloud CAPEX, vendor revenues).
-
-**Outputs**
-- Figure: `output/ai/ic_vs_ai_quarterly.png`  
-- Merged table (quarterly): `data/processed/ic_with_ai_index.csv`  
-- Notebook: `notebooks/online_ai_regression.ipynb`
-
----
-
 ## How to Reproduce
 
 ### Taiwan Customs — Top 10/12 Markets
