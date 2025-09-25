@@ -17,7 +17,7 @@ Quantify how the post-2023 AI demand boom relates to Taiwan’s HS8542 exports, 
   - TWFE with `Taiwan × AI_signal` interaction to test relative effect  
   - Placebo & pre-trend checks (event study around 2023H2)
 
-## New: AI Demand × IC Exports (2015–2025)
+## AI Demand × IC Exports (2015–2025)
 
 ### What we do
 1. Build (or load cached) **AI demand index** from Google Trends (monthly), then aggregate to **quarterly**.
